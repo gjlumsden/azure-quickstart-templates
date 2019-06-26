@@ -31,7 +31,7 @@ Click the button below to deploy from the portal:
 + 	The default settings for compute require that you have at least 2 cores of free quota to deploy.
 
 + 	The images used to create this deployment are
-	+ 	Windows Server 2016 Datacenter Edition - Latest Image
+	+ 	Windows Server 2019 Datacenter Edition - Latest Image
 
 +	To successfully deploy this template, be sure that the subnet to which the storage nodes are being deployed already exists on the specified Azure virtual network, AND this subnet should be defined in Active Directory Sites and Services for the appropriate AD site in which the closest domain controllers are configured.
 
@@ -64,4 +64,4 @@ one will be created by the script or reused if it already exists (think of this 
 azure-group-deploy.sh -a '301-storage-spaces-direct' -l eastus -u
 ```
 
-Tags: ``cluster, ha, storage spaces, storage spaces direct, S2D, windows server 2016, ws2016``
+Tags: ``cluster, ha, storage spaces, storage spaces direct, S2D, windows server 2019, ws2019``
